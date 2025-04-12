@@ -1,0 +1,32 @@
+{
+  "name": "highlightsaverweb",
+  "license": "0BSD",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~4.0.1",
+    "expo": "~52.0.43",
+    "expo-clipboard": "~7.0.1",
+    "expo-document-picker": "~13.0.3",
+    "expo-file-system": "~18.0.12",
+    "expo-status-bar": "~2.0.1",
+    "nvm": "^0.0.4",
+    "pdf-lib": "^1.17.1",
+    "react": "18.3.1",
+    "react-native": "0.76.9",
+    "react-native-paper": "^5.13.1",
+    "react-native-pdf": "^6.7.7",
+    "react-native-web": "~0.19.13"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/plugin-transform-class-static-block": "^7.26.0"
+  },
+  "private": true
+}
